@@ -26,3 +26,73 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.log
+
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+
+# Rider settings
+.idea/
+
+# DotCover is a JetBrains tool
+*.dotCover
+
+# IIS Express settings
+.vs/
+
+# Build artifacts
+*.dll
+*.exe
+*.app
+*.apk
+*.vsix
+
+# Auto-generated files
+*.log
+*.tlog
+*.cache
+*.pdb
+
+# Entity Framework migrations snapshot
+*MigrationsSnapshot.cs
+
+# dotnet publish directory
+publish/
+*.publish.xml
+
+# Local database files (SQLite, LocalDB, etc.)
+*.db
+*.db-shm
+*.db-wal
+*.mdf
+*.ldf
+
+# Secrets
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+
+# Other temp files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Resharper / Rider
+*.sln.iml
+*.idea/
+
+# Test results
+TestResults/
+
